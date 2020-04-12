@@ -3,10 +3,12 @@
 
 print('\nFor two positive integers you could play with the Polish notation.')
 
-operation_sym = input('\n\nEnter one of the arithmetic operational symbols to start the game,\n e.g. +, -, *, /: ')
+your_input = list(input('\n\nEnter your Polish notation: one arythmetic symbol followed by two pisitive integers separated with spaces to start the game,\n e.g. + 2 9: ').split(' '))
 
-number_1 = int(input('\nEnter the first positive integer: '))
-number_2 = int(input('\nEnter the second positive integer: '))
+operation_sym = your_input[0]
+
+number_1 = int(your_input[1])
+number_2 = int(your_input[2])
 
 operation_symbols = ['+', '-', '*', '/']
 
