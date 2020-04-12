@@ -3,7 +3,7 @@
 
 print('\nFor two positive integers you could play with the Polish notation.')
 
-your_input = list(input('\n\nEnter your Polish notation: one arythmetic symbol followed by two pisitive integers separated with spaces to start the game,\n e.g. + 2 9: ').split(' '))
+your_input = list(input('\n\nEnter your Polish notation: one arythmetic symbol followed by two positive integers separated with spaces to start the game,\n e.g. + 2 9: ').split(' '))
 
 operation_sym = your_input[0]
 
